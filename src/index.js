@@ -9,6 +9,7 @@ root.render(
   <React.StrictMode>
     <h1>Weather App Project</h1>
     <App />
+    <a href='https://github.com/Maria09876/weather-react' target="_blank" rel="noopener noreferrer" style={{color:'white'}}>Open source code</a> by Maria Efthymiou
   </React.StrictMode>
 );
 

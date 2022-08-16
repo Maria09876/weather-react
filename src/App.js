@@ -55,7 +55,11 @@ let currentDay = days[now.getDay()];
 let currentMonth = months[now.getMonth()];
 let day = now.getDate();
 let hours = now.getHours();
-let minutes = now.getMinutes();
+    let minutes = now.getMinutes();
+    
+    if (minutes.toString().length === 1) {
+    minutes = `0${minutes}`;
+  }
 
     let date = `${currentDay} ${day}, ${currentMonth}`
     let time = `${hours}:${minutes}`
